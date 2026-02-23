@@ -47,7 +47,7 @@ if st.button("Generate Result", use_container_width=True):
                 response = co.chat(
                     message=user_input,
                     preamble=system_prompt,
-                    model="command-r-plus"
+                    model="command"
                 )
                 st.markdown("### ✨ Response")
                 st.success("Analysis Complete!")
